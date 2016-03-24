@@ -37,7 +37,10 @@
 #ifndef SparkFun_VL6180X_h
 #define SparkFun_VL6180X_h
 
-#include <Arduino.h>
+#define ARDUINO_H
+#include <stdint.h>
+#include <stddef.h>
+#include <stdlib.h>
 
 #define VL6180x_FAILURE_RESET  -1
 
